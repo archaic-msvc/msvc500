@@ -1,0 +1,598 @@
+ MFCN42D
+
+ Timestamp is 32f247fb (Fri Jan 31 11:28:59 1997)
+
+ Preferred load address is 5f600000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000932H .text                   CODE
+ 0001:00000940 000002f3H .text$AFX_INIT          CODE
+ 0001:00000c40 00002563H .text$AFX_SOCK          CODE
+ 0001:000031b0 000001cdH .text$AFX_VDEL          CODE
+ 0001:00003380 000000c4H .text$x                 CODE
+ 0002:00000000 000005d9H .rdata                  DATA
+ 0002:000005e0 00000284H .rdata$r                DATA
+ 0002:00000868 000001a0H .xdata$x                DATA
+ 0002:00000a10 00000268H .edata                  DATA
+ 0003:00000000 00000004H .CRT$XCA                DATA
+ 0003:00000004 00000004H .CRT$XCL                DATA
+ 0003:00000008 00000004H .CRT$XCZ                DATA
+ 0003:0000000c 00000004H .CRT$XIA                DATA
+ 0003:00000010 00000004H .CRT$XIZ                DATA
+ 0003:00000020 00000208H .data                   DATA
+ 0003:00000228 00000028H .bss                    DATA
+ 0004:00000000 00000050H .idata$2                DATA
+ 0004:00000050 00000014H .idata$3                DATA
+ 0004:00000064 0000022cH .idata$4                DATA
+ 0004:00000290 0000022cH .idata$5                DATA
+ 0004:000004bc 00000194H .idata$6                DATA
+ 0005:00000000 00000058H .rsrc$01                DATA
+ 0005:00000060 00000364H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base   Lib:Object
+
+ 0001:00000000       ?GetHead@CSimpleList@@QBEPAXXZ 5f601000 f dllnet.obj
+ 0001:00000010       ??B?$CTypedSimpleList@PAUCRuntimeClass@@@@QAEPAUCRuntimeClass@@XZ 5f601010 f dllnet.obj
+ 0001:00000010       ??B?$CTypedSimpleList@PAVCOleObjectFactory@@@@QAEPAVCOleObjectFactory@@XZ 5f601010 f dllnet.obj
+ 0001:00000030       ??1CNoTrackObject@@UAE@XZ  5f601030 f sockcore.obj
+ 0001:00000050       ??_ECNoTrackObject@@UAEPAXI@Z 5f601050 f sockcore.obj
+ 0001:00000050       ??_GCNoTrackObject@@UAEPAXI@Z 5f601050 f sockcore.obj
+ 0001:00000080       ?T2A@@YAPADPAD@Z           5f601080 f sockcore.obj
+ 0001:00000090       ?GetData@?$CProcessLocal@V_AFX_SOCK_STATE@@@@QAEPAV_AFX_SOCK_STATE@@XZ 5f601090 f sockcore.obj
+ 0001:000000e0       ??C?$CProcessLocal@V_AFX_SOCK_STATE@@@@QAEPAV_AFX_SOCK_STATE@@XZ 5f6010e0 f sockcore.obj
+ 0001:00000100       ?CreateObject@?$CProcessLocal@V_AFX_SOCK_STATE@@@@SGPAVCNoTrackObject@@XZ 5f601100 f sockcore.obj
+ 0001:00000170       ??0_AFX_SOCK_STATE@@QAE@XZ 5f601170 f sockcore.obj
+ 0001:00000190       ??0CNoTrackObject@@QAE@XZ  5f601190 f sockcore.obj
+ 0001:000001b0       ??_E_AFX_SOCK_STATE@@UAEPAXI@Z 5f6011b0 f sockcore.obj
+ 0001:000001b0       ??_G_AFX_SOCK_STATE@@UAEPAXI@Z 5f6011b0 f sockcore.obj
+ 0001:000001dc       ?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 5f6011dc f MFC42D:MFC42D.DLL
+ 0001:000001e2       ??3CObject@@SGXPAX@Z       5f6011e2 f MFC42D:MFC42D.DLL
+ 0001:000001e8       ?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 5f6011e8 f MFC42D:MFC42D.DLL
+ 0001:000001ee       ?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 5f6011ee f MFC42D:MFC42D.DLL
+ 0001:000001f4       ??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 5f6011f4 f MFC42D:MFC42D.DLL
+ 0001:000001fa       ??2CObject@@SGPAXI@Z       5f6011fa f MFC42D:MFC42D.DLL
+ 0001:00000200       ?AfxAssertFailedLine@@YGHPBDH@Z 5f601200 f MFC42D:MFC42D.DLL
+ 0001:00000206       ?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 5f601206 f MFC42D:MFC42D.DLL
+ 0001:0000020c       ?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 5f60120c f MFC42D:MFC42D.DLL
+ 0001:00000212       ??3@YAXPAX@Z               5f601212 f MFC42D:MFC42D.DLL
+ 0001:00000218       ??2@YAPAXI@Z               5f601218 f MFC42D:MFC42D.DLL
+ 0001:0000021e       ?AfxLoadDll@@YGPAUHINSTANCE__@@RAPAU1@PBDPAP6GHXZ1@Z 5f60121e f MFC42D:MFC42D.DLL
+ 0001:00000224       ?Serialize@CObject@@UAEXAAVCArchive@@@Z 5f601224 f MFC42D:MFC42D.DLL
+ 0001:0000022a       ??0CObject@@IAE@XZ         5f60122a f MFC42D:MFC42D.DLL
+ 0001:00000230       ??4CString@@QAEABV0@PBD@Z  5f601230 f MFC42D:MFC42D.DLL
+ 0001:00000236       ??3CNoTrackObject@@SGXPAX@Z 5f601236 f MFC42D:MFC42D.DLL
+ 0001:0000023c       ?AfxGetModuleThreadState@@YGPAVAFX_MODULE_THREAD_STATE@@XZ 5f60123c f MFC42D:MFC42D.DLL
+ 0001:00000242       ??1CObject@@UAE@XZ         5f601242 f MFC42D:MFC42D.DLL
+ 0001:00000248       ?GetValueAt@CMapPtrToPtr@@QBEPAXPAX@Z 5f601248 f MFC42D:MFC42D.DLL
+ 0001:0000024e       ?Lookup@CMapPtrToPtr@@QBEHPAXAAPAX@Z 5f60124e f MFC42D:MFC42D.DLL
+ 0001:00000254       ?SetAt@CMapPtrToPtr@@QAEXPAX0@Z 5f601254 f MFC42D:MFC42D.DLL
+ 0001:0000025a       ?FromHandlePermanent@CWnd@@SGPAV1@PAUHWND__@@@Z 5f60125a f MFC42D:MFC42D.DLL
+ 0001:00000260       ?AfxThrowResourceException@@YGXXZ 5f601260 f MFC42D:MFC42D.DLL
+ 0001:00000266       ?AfxTrace@@YAXPBDZZ        5f601266 f MFC42D:MFC42D.DLL
+ 0001:0000026c       ?CreateEx@CWnd@@QAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 5f60126c f MFC42D:MFC42D.DLL
+ 0001:00000272       ?AfxRegisterWndClass@@YGPBDIPAUHICON__@@PAUHBRUSH__@@0@Z 5f601272 f MFC42D:MFC42D.DLL
+ 0001:00000278       ??2CObject@@SGPAXIPBDH@Z   5f601278 f MFC42D:MFC42D.DLL
+ 0001:0000027e       ?IsEmpty@CMapPtrToPtr@@QBEHXZ 5f60127e f MFC42D:MFC42D.DLL
+ 0001:00000284       ?AfxEnableMemoryTracking@@YGHH@Z 5f601284 f MFC42D:MFC42D.DLL
+ 0001:0000028a       ?RemoveHead@CPtrList@@QAEPAXXZ 5f60128a f MFC42D:MFC42D.DLL
+ 0001:00000290       ?IsEmpty@CPtrList@@QBEHXZ  5f601290 f MFC42D:MFC42D.DLL
+ 0001:00000296       ?RemoveAll@CMapPtrToPtr@@QAEXXZ 5f601296 f MFC42D:MFC42D.DLL
+ 0001:0000029c       ?AfxAssertValidObject@@YGXPBVCObject@@PBDH@Z 5f60129c f MFC42D:MFC42D.DLL
+ 0001:000002a2       ?RemoveKey@CMapPtrToPtr@@QAEHPAX@Z 5f6012a2 f MFC42D:MFC42D.DLL
+ 0001:000002a8       ?AssertValid@CObject@@UBEXXZ 5f6012a8 f MFC42D:MFC42D.DLL
+ 0001:000002ae       ??6CDumpContext@@QAEAAV0@I@Z 5f6012ae f MFC42D:MFC42D.DLL
+ 0001:000002b4       ??6CDumpContext@@QAEAAV0@PBD@Z 5f6012b4 f MFC42D:MFC42D.DLL
+ 0001:000002ba       ?Dump@CObject@@UBEXAAVCDumpContext@@@Z 5f6012ba f MFC42D:MFC42D.DLL
+ 0001:000002c0       ?AddTail@CPtrList@@QAEPAU__POSITION@@PAX@Z 5f6012c0 f MFC42D:MFC42D.DLL
+ 0001:000002c6       ??2@YAPAXIPBDH@Z           5f6012c6 f MFC42D:MFC42D.DLL
+ 0001:000002cc       ?Delete@CException@@QAEXXZ 5f6012cc f MFC42D:MFC42D.DLL
+ 0001:000002d2       ?IsKindOf@CObject@@QBEHPBUCRuntimeClass@@@Z 5f6012d2 f MFC42D:MFC42D.DLL
+ 0001:000002d8       ?AfxGetThread@@YGPAVCWinThread@@XZ 5f6012d8 f MFC42D:MFC42D.DLL
+ 0001:000002de       ??6CDumpContext@@QAEAAV0@H@Z 5f6012de f MFC42D:MFC42D.DLL
+ 0001:000002e4       ??6CDumpContext@@QAEAAV0@PBX@Z 5f6012e4 f MFC42D:MFC42D.DLL
+ 0001:000002ea       ?GetBufferPtr@CFile@@UAEIIIPAPAX0@Z 5f6012ea f MFC42D:MFC42D.DLL
+ 0001:000002f0       ?SetFilePath@CFile@@UAEXPBD@Z 5f6012f0 f MFC42D:MFC42D.DLL
+ 0001:000002f6       ?GetFilePath@CFile@@UBE?AVCString@@XZ 5f6012f6 f MFC42D:MFC42D.DLL
+ 0001:000002fc       ?GetFileTitle@CFile@@UBE?AVCString@@XZ 5f6012fc f MFC42D:MFC42D.DLL
+ 0001:00000302       ?GetFileName@CFile@@UBE?AVCString@@XZ 5f601302 f MFC42D:MFC42D.DLL
+ 0001:00000308       ??1CFile@@UAE@XZ           5f601308 f MFC42D:MFC42D.DLL
+ 0001:0000030e       ??0CFile@@QAE@XZ           5f60130e f MFC42D:MFC42D.DLL
+ 0001:00000314       ?AfxThrowFileException@@YGXHJPBD@Z 5f601314 f MFC42D:MFC42D.DLL
+ 0001:0000031a       ?AfxThrowNotSupportedException@@YGXXZ 5f60131a f MFC42D:MFC42D.DLL
+ 0001:00000320       ?AssertValid@CFile@@UBEXXZ 5f601320 f MFC42D:MFC42D.DLL
+ 0001:00000326       ??6CDumpContext@@QAEAAV0@PBVCObject@@@Z 5f601326 f MFC42D:MFC42D.DLL
+ 0001:0000032c       ?GetDepth@CDumpContext@@QBEHXZ 5f60132c f MFC42D:MFC42D.DLL
+ 0001:00000332       ?Dump@CFile@@UBEXAAVCDumpContext@@@Z 5f601332 f MFC42D:MFC42D.DLL
+ 0001:00000338       ?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 5f601338 f MFC42D:MFC42D.DLL
+ 0001:0000033e       ?IsFrameWnd@CWnd@@UBEHXZ   5f60133e f MFC42D:MFC42D.DLL
+ 0001:00000344       ?CheckAutoCenter@CWnd@@UAEHXZ 5f601344 f MFC42D:MFC42D.DLL
+ 0001:0000034a       ?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 5f60134a f MFC42D:MFC42D.DLL
+ 0001:00000350       ?PostNcDestroy@CWnd@@MAEXXZ 5f601350 f MFC42D:MFC42D.DLL
+ 0001:00000356       ?DefWindowProcA@CWnd@@MAEJIIJ@Z 5f601356 f MFC42D:MFC42D.DLL
+ 0001:0000035c       ?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 5f60135c f MFC42D:MFC42D.DLL
+ 0001:00000362       ?WindowProc@CWnd@@MAEJIIJ@Z 5f601362 f MFC42D:MFC42D.DLL
+ 0001:00000368       ?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 5f601368 f MFC42D:MFC42D.DLL
+ 0001:0000036e       ?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 5f60136e f MFC42D:MFC42D.DLL
+ 0001:00000374       ?EndModalState@CWnd@@UAEXXZ 5f601374 f MFC42D:MFC42D.DLL
+ 0001:0000037a       ?BeginModalState@CWnd@@UAEXXZ 5f60137a f MFC42D:MFC42D.DLL
+ 0001:00000380       ?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 5f601380 f MFC42D:MFC42D.DLL
+ 0001:00000386       ?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 5f601386 f MFC42D:MFC42D.DLL
+ 0001:0000038c       ?OnNotify@CWnd@@MAEHIJPAJ@Z 5f60138c f MFC42D:MFC42D.DLL
+ 0001:00000392       ?OnCommand@CWnd@@MAEHIJ@Z  5f601392 f MFC42D:MFC42D.DLL
+ 0001:00000398       ?EndModalLoop@CWnd@@UAEXH@Z 5f601398 f MFC42D:MFC42D.DLL
+ 0001:0000039e       ?ContinueModal@CWnd@@UAEHXZ 5f60139e f MFC42D:MFC42D.DLL
+ 0001:000003a4       ?WinHelpA@CWnd@@UAEXKI@Z   5f6013a4 f MFC42D:MFC42D.DLL
+ 0001:000003aa       ?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 5f6013aa f MFC42D:MFC42D.DLL
+ 0001:000003b0       ?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 5f6013b0 f MFC42D:MFC42D.DLL
+ 0001:000003b6       ?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 5f6013b6 f MFC42D:MFC42D.DLL
+ 0001:000003bc       ?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 5f6013bc f MFC42D:MFC42D.DLL
+ 0001:000003c2       ?DestroyWindow@CWnd@@UAEHXZ 5f6013c2 f MFC42D:MFC42D.DLL
+ 0001:000003c8       ?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 5f6013c8 f MFC42D:MFC42D.DLL
+ 0001:000003ce       ?PreSubclassWindow@CWnd@@UAEXXZ 5f6013ce f MFC42D:MFC42D.DLL
+ 0001:000003d4       ?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 5f6013d4 f MFC42D:MFC42D.DLL
+ 0001:000003da       ?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 5f6013da f MFC42D:MFC42D.DLL
+ 0001:000003e0       ?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 5f6013e0 f MFC42D:MFC42D.DLL
+ 0001:000003e6       ?OnCreateAggregates@CCmdTarget@@UAEHXZ 5f6013e6 f MFC42D:MFC42D.DLL
+ 0001:000003ec       ?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 5f6013ec f MFC42D:MFC42D.DLL
+ 0001:000003f2       ?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 5f6013f2 f MFC42D:MFC42D.DLL
+ 0001:000003f8       ?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 5f6013f8 f MFC42D:MFC42D.DLL
+ 0001:000003fe       ?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 5f6013fe f MFC42D:MFC42D.DLL
+ 0001:00000404       ?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 5f601404 f MFC42D:MFC42D.DLL
+ 0001:0000040a       ?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 5f60140a f MFC42D:MFC42D.DLL
+ 0001:00000410       ?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 5f601410 f MFC42D:MFC42D.DLL
+ 0001:00000416       ?GetTypeInfoCount@CCmdTarget@@UAEIXZ 5f601416 f MFC42D:MFC42D.DLL
+ 0001:0000041c       ?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 5f60141c f MFC42D:MFC42D.DLL
+ 0001:00000422       ?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 5f601422 f MFC42D:MFC42D.DLL
+ 0001:00000428       ?OnFinalRelease@CWnd@@UAEXXZ 5f601428 f MFC42D:MFC42D.DLL
+ 0001:0000042e       ?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 5f60142e f MFC42D:MFC42D.DLL
+ 0001:00000434       ?Dump@CWnd@@UBEXAAVCDumpContext@@@Z 5f601434 f MFC42D:MFC42D.DLL
+ 0001:0000043a       ?AssertValid@CWnd@@UBEXXZ  5f60143a f MFC42D:MFC42D.DLL
+ 0001:00000440       ?GetRuntimeClass@CWnd@@UBEPAUCRuntimeClass@@XZ 5f601440 f MFC42D:MFC42D.DLL
+ 0001:00000446       ??0CWnd@@QAE@XZ            5f601446 f MFC42D:MFC42D.DLL
+ 0001:0000044c       ??1CWnd@@UAE@XZ            5f60144c f MFC42D:MFC42D.DLL
+ 0001:00000452       ??1CProcessLocalObject@@QAE@XZ 5f601452 f MFC42D:MFC42D.DLL
+ 0001:00000458       ?GetData@CProcessLocalObject@@QAEPAVCNoTrackObject@@P6GPAV2@XZ@Z 5f601458 f MFC42D:MFC42D.DLL
+ 0001:0000045e       ??2CNoTrackObject@@SGPAXI@Z 5f60145e f MFC42D:MFC42D.DLL
+ 0001:00000464       ___CxxFrameHandler         5f601464 f msvcrtd:MSVCRTD.dll
+ 0001:00000470       ??_L@YGXPAXIHP6EX0@Z1@Z    5f601470 f msvcrtd:ehvecctr.obj
+ 0001:00000510       ??_M@YGXPAXIHP6EX0@Z@Z     5f601510 f msvcrtd:ehvecdtr.obj
+ 0001:000005c0       ?__ArrayUnwind@@YGXPAXIHP6EX0@Z@Z 5f6015c0 f msvcrtd:ehvecdtr.obj
+ 0001:00000670       ??_Gtype_info@@UAEPAXI@Z   5f601670 f msvcrtd:ti_inst.obj
+ 0001:00000670       ??_Etype_info@@UAEPAXI@Z   5f601670 f msvcrtd:ti_inst.obj
+ 0001:0000069e       _memset                    5f60169e f msvcrtd:MSVCRTD.dll
+ 0001:000006b0       __onexit                   5f6016b0 f msvcrtd:atonexit.obj
+ 0001:000006f0       _atexit                    5f6016f0 f msvcrtd:atonexit.obj
+ 0001:00000710       __CRT_INIT@12              5f601710 f msvcrtd:crtdll.obj
+ 0001:00000820       __DllMainCRTStartup@12     5f601820 f msvcrtd:crtdll.obj
+ 0001:00000914       __except_handler3          5f601914 f msvcrtd:MSVCRTD.dll
+ 0001:0000091a       ?terminate@@YAXXZ          5f60191a f msvcrtd:MSVCRTD.dll
+ 0001:00000920       ??1type_info@@UAE@XZ       5f601920 f msvcrtd:MSVCRTD.dll
+ 0001:00000926       ___dllonexit               5f601926 f msvcrtd:MSVCRTD.dll
+ 0001:0000092c       __initterm                 5f60192c f msvcrtd:MSVCRTD.dll
+ 0001:00000940       _RawDllMain@12             5f601940 f dllnet.obj
+ 0001:000009de       _DllMain@12                5f6019de f dllnet.obj
+ 0001:00000ace       ?AfxNetInitModule@@YGXXZ   5f601ace f dllnet.obj
+ 0001:00000b90       ?_GetBaseClass@CAsyncSocket@@KGPAUCRuntimeClass@@XZ 5f601b90 f sockcore.obj
+ 0001:00000b9a       ?GetRuntimeClass@CAsyncSocket@@UBEPAUCRuntimeClass@@XZ 5f601b9a f sockcore.obj
+ 0001:00000baa       ?_GetBaseClass@CSocket@@KGPAUCRuntimeClass@@XZ 5f601baa f sockcore.obj
+ 0001:00000bb4       ?GetRuntimeClass@CSocket@@UBEPAUCRuntimeClass@@XZ 5f601bb4 f sockcore.obj
+ 0001:00000bc4       ?_GetBaseClass@CSocketFile@@KGPAUCRuntimeClass@@XZ 5f601bc4 f sockcore.obj
+ 0001:00000bce       ?GetRuntimeClass@CSocketFile@@UBEPAUCRuntimeClass@@XZ 5f601bce f sockcore.obj
+ 0001:00000c20       ??1?$CProcessLocal@V_AFX_SOCK_STATE@@@@QAE@XZ 5f601c20 f sockcore.obj
+ 0001:00000c40       ?AfxThunkaccept@@YGIIPAUsockaddr@@PAH@Z 5f601c40 f sockcore.obj
+ 0001:00000c6b       ?AfxThunkhtons@@YGGG@Z     5f601c6b f sockcore.obj
+ 0001:00000c8f       ?AfxThunkinet_addr@@YGKPBD@Z 5f601c8f f sockcore.obj
+ 0001:00000cb2       ?AfxThunkclosesocket@@YGHI@Z 5f601cb2 f sockcore.obj
+ 0001:00000cd5       ?AfxThunkgetsockname@@YGHIPAUsockaddr@@PAH@Z 5f601cd5 f sockcore.obj
+ 0001:00000d00       ?AfxThunkgetpeername@@YGHIPAUsockaddr@@PAH@Z 5f601d00 f sockcore.obj
+ 0001:00000d2b       ?AfxThunkntohs@@YGGG@Z     5f601d2b f sockcore.obj
+ 0001:00000d4f       ?AfxThunkinet_ntoa@@YGPADUin_addr@@@Z 5f601d4f f sockcore.obj
+ 0001:00000d72       ?AfxThunkWSAGetLastError@@YGHXZ 5f601d72 f sockcore.obj
+ 0001:00000d8f       ?AfxThunkWSASetLastError@@YGXH@Z 5f601d8f f sockcore.obj
+ 0001:00000db2       ?AfxThunkWSAStartup@@YGHGPAUWSAData@@@Z 5f601db2 f sockcore.obj
+ 0001:00000dda       ?AfxThunkWSACleanup@@YGHXZ 5f601dda f sockcore.obj
+ 0001:00000df7       ?AfxThunkhtonl@@YGKK@Z     5f601df7 f sockcore.obj
+ 0001:00000e1a       ?AfxThunksocket@@YGIHHH@Z  5f601e1a f sockcore.obj
+ 0001:00000e45       ?AfxThunkgethostbyname@@YGPAUhostent@@PBD@Z 5f601e45 f sockcore.obj
+ 0001:00000e68       ?AfxThunkrecv@@YGHIPADHH@Z 5f601e68 f sockcore.obj
+ 0001:00000e97       ?AfxThunksend@@YGHIPBDHH@Z 5f601e97 f sockcore.obj
+ 0001:00000ec6       ?AfxThunkWSAAsyncSelect@@YGHIPAUHWND__@@IJ@Z 5f601ec6 f sockcore.obj
+ 0001:00000ef5       ?AfxThunkrecvfrom@@YGHIPADHHPAUsockaddr@@PAH@Z 5f601ef5 f sockcore.obj
+ 0001:00000f2c       ?AfxThunksendto@@YGHIPBDHHPBUsockaddr@@H@Z 5f601f2c f sockcore.obj
+ 0001:00000f63       ?AfxThunkconnect@@YGHIPBUsockaddr@@H@Z 5f601f63 f sockcore.obj
+ 0001:00000f8e       ?AfxThunkbind@@YGHIPBUsockaddr@@H@Z 5f601f8e f sockcore.obj
+ 0001:00000fb9       ?AfxThunksetsockopt@@YGHIHHPBDH@Z 5f601fb9 f sockcore.obj
+ 0001:00000fec       ?AfxThunkgetsockopt@@YGHIHHPADPAH@Z 5f601fec f sockcore.obj
+ 0001:0000101f       ?AfxThunkioctlsocket@@YGHIJPAK@Z 5f60201f f sockcore.obj
+ 0001:0000104a       ?AfxThunklisten@@YGHIH@Z   5f60204a f sockcore.obj
+ 0001:00001071       ?AfxThunkshutdown@@YGHIH@Z 5f602071 f sockcore.obj
+ 0001:00001098       ??1_AFX_SOCK_STATE@@UAE@XZ 5f602098 f sockcore.obj
+ 0001:000010f0       ?AfxSocketTerm@@YGXXZ      5f6020f0 f sockcore.obj
+ 0001:00001134       ?AfxSocketInit@@YGHPAUWSAData@@@Z 5f602134 f sockcore.obj
+ 0001:000011d7       ??0CAsyncSocket@@QAE@XZ    5f6021d7 f sockcore.obj
+ 0001:00001200       ?Create@CAsyncSocket@@QAEHIHJPBD@Z 5f602200 f sockcore.obj
+ 0001:00001261       ?Attach@CAsyncSocket@@QAEHIJ@Z 5f602261 f sockcore.obj
+ 0001:000012b8       ?Detach@CAsyncSocket@@QAEIXZ 5f6022b8 f sockcore.obj
+ 0001:000012fb       ?GetPeerName@CAsyncSocket@@QAEHAAVCString@@AAI@Z 5f6022fb f sockcore.obj
+ 0001:00001365       ?GetSockName@CAsyncSocket@@QAEHAAVCString@@AAI@Z 5f602365 f sockcore.obj
+ 0001:000013cf       ?Accept@CAsyncSocket@@UAEHAAV1@PAUsockaddr@@PAH@Z 5f6023cf f sockcore.obj
+ 0001:000014b8       ?Bind@CAsyncSocket@@QAEHIPBD@Z 5f6024b8 f sockcore.obj
+ 0001:0000154b       ?Close@CAsyncSocket@@UAEXXZ 5f60254b f sockcore.obj
+ 0001:000015ab       ?Connect@CAsyncSocket@@QAEHPBDI@Z 5f6025ab f sockcore.obj
+ 0001:0000166d       ?Receive@CAsyncSocket@@UAEHPAXHH@Z 5f60266d f sockcore.obj
+ 0001:00001693       ?ReceiveFrom@CAsyncSocket@@QAEHPAXHAAVCString@@AAIH@Z 5f602693 f sockcore.obj
+ 0001:00001709       ?Send@CAsyncSocket@@UAEHPBXHH@Z 5f602709 f sockcore.obj
+ 0001:0000172f       ?SendTo@CAsyncSocket@@QAEHPBXHIPBDH@Z 5f60272f f sockcore.obj
+ 0001:000017ea       ?AsyncSelect@CAsyncSocket@@QAEHJ@Z 5f6027ea f sockcore.obj
+ 0001:00001874       ?OnReceive@CAsyncSocket@@MAEXH@Z 5f602874 f sockcore.obj
+ 0001:00001881       ?OnSend@CAsyncSocket@@MAEXH@Z 5f602881 f sockcore.obj
+ 0001:0000188e       ?OnOutOfBandData@CAsyncSocket@@MAEXH@Z 5f60288e f sockcore.obj
+ 0001:0000189b       ?OnAccept@CAsyncSocket@@MAEXH@Z 5f60289b f sockcore.obj
+ 0001:000018a8       ?OnConnect@CAsyncSocket@@MAEXH@Z 5f6028a8 f sockcore.obj
+ 0001:000018b5       ?OnClose@CAsyncSocket@@MAEXH@Z 5f6028b5 f sockcore.obj
+ 0001:000018c2       ??1CAsyncSocket@@UAE@XZ    5f6028c2 f sockcore.obj
+ 0001:0000191c       ?LookupHandle@CAsyncSocket@@SGPAV1@IH@Z 5f60291c f sockcore.obj
+ 0001:00001974       ?AttachHandle@CAsyncSocket@@SGXIPAV1@H@Z 5f602974 f sockcore.obj
+ 0001:00001b66       ?DetachHandle@CAsyncSocket@@SGXIH@Z 5f602b66 f sockcore.obj
+ 0001:00001cde       ?KillSocket@CAsyncSocket@@SGXIPAV1@@Z 5f602cde f sockcore.obj
+ 0001:00001d5a       ?DoCallBack@CAsyncSocket@@SGXIJ@Z 5f602d5a f sockcore.obj
+ 0001:00001f09       ?Socket@CAsyncSocket@@QAEHHJHH@Z 5f602f09 f sockcore.obj
+ 0001:00001f82       ?AssertValid@CAsyncSocket@@UBEXXZ 5f602f82 f sockcore.obj
+ 0001:00001fce       ?Dump@CAsyncSocket@@UBEXAAVCDumpContext@@@Z 5f602fce f sockcore.obj
+ 0001:00002027       ?ReceiveFromHelper@CAsyncSocket@@MAEHPAXHPAUsockaddr@@PAHH@Z 5f603027 f sockcore.obj
+ 0001:00002055       ?SendToHelper@CAsyncSocket@@MAEHPBXHPBUsockaddr@@HH@Z 5f603055 f sockcore.obj
+ 0001:00002083       ?ConnectHelper@CAsyncSocket@@MAEHPBUsockaddr@@H@Z 5f603083 f sockcore.obj
+ 0001:000020af       ??0CSocket@@QAE@XZ         5f6030af f sockcore.obj
+ 0001:000020ec       ?CancelBlockingCall@CSocket@@QAEXXZ 5f6030ec f sockcore.obj
+ 0001:00002116       ?OnMessagePending@CSocket@@MAEHXZ 5f603116 f sockcore.obj
+ 0001:00002149       ??1CSocket@@UAE@XZ         5f603149 f sockcore.obj
+ 0001:000021a3       ?Accept@CSocket@@UAEHAAVCAsyncSocket@@PAUsockaddr@@PAH@Z 5f6031a3 f sockcore.obj
+ 0001:0000220e       ?Close@CSocket@@UAEXXZ     5f60320e f sockcore.obj
+ 0001:0000226a       ?Receive@CSocket@@UAEHPAXHH@Z 5f60326a f sockcore.obj
+ 0001:000022dc       ?Send@CSocket@@UAEHPBXHH@Z 5f6032dc f sockcore.obj
+ 0001:00002351       ?SendChunk@CSocket@@QAEHPBXHH@Z 5f603351 f sockcore.obj
+ 0001:000023ab       ?ConnectHelper@CSocket@@MAEHPBUsockaddr@@H@Z 5f6033ab f sockcore.obj
+ 0001:0000243c       ?ReceiveFromHelper@CSocket@@MAEHPAXHPAUsockaddr@@PAHH@Z 5f60343c f sockcore.obj
+ 0001:000024b6       ?SendToHelper@CSocket@@MAEHPBXHPBUsockaddr@@HH@Z 5f6034b6 f sockcore.obj
+ 0001:00002530       ?ProcessAuxQueue@CSocket@@SGHXZ 5f603530 f sockcore.obj
+ 0001:00002624       ?AuxQueueAdd@CSocket@@KGXIIJ@Z 5f603624 f sockcore.obj
+ 0001:00002679       ?PumpMessages@CSocket@@MAEHI@Z 5f603679 f sockcore.obj
+ 0001:00002934       ?AssertValid@CSocket@@MBEXXZ 5f603934 f sockcore.obj
+ 0001:00002947       ?Dump@CSocket@@MBEXAAVCDumpContext@@@Z 5f603947 f sockcore.obj
+ 0001:000029ae       ??0CSocketFile@@QAE@PAVCSocket@@H@Z 5f6039ae f sockcore.obj
+ 0001:00002ac8       ??1CSocketFile@@UAE@XZ     5f603ac8 f sockcore.obj
+ 0001:00002ae4       ?Read@CSocketFile@@UAEIPAXI@Z 5f603ae4 f sockcore.obj
+ 0001:00002c29       ?Write@CSocketFile@@UAEXPBXI@Z 5f603c29 f sockcore.obj
+ 0001:00002c9a       ?Close@CSocketFile@@UAEXXZ 5f603c9a f sockcore.obj
+ 0001:00002caf       ?Open@CSocketFile@@UAEHPBDIPAVCFileException@@@Z 5f603caf f sockcore.obj
+ 0001:00002cc3       ?Duplicate@CSocketFile@@UBEPAVCFile@@XZ 5f603cc3 f sockcore.obj
+ 0001:00002cd5       ?GetPosition@CSocketFile@@UBEKXZ 5f603cd5 f sockcore.obj
+ 0001:00002ce7       ?Seek@CSocketFile@@UAEJJI@Z 5f603ce7 f sockcore.obj
+ 0001:00002d14       ?SetLength@CSocketFile@@UAEXK@Z 5f603d14 f sockcore.obj
+ 0001:00002d26       ?GetLength@CSocketFile@@UBEKXZ 5f603d26 f sockcore.obj
+ 0001:00002d38       ?LockRange@CSocketFile@@UAEXKK@Z 5f603d38 f sockcore.obj
+ 0001:00002d4a       ?UnlockRange@CSocketFile@@UAEXKK@Z 5f603d4a f sockcore.obj
+ 0001:00002d5c       ?Flush@CSocketFile@@UAEXXZ 5f603d5c f sockcore.obj
+ 0001:00002d67       ?Abort@CSocketFile@@UAEXXZ 5f603d67 f sockcore.obj
+ 0001:00002d77       ?AssertValid@CSocketFile@@UBEXXZ 5f603d77 f sockcore.obj
+ 0001:00002da9       ?Dump@CSocketFile@@UBEXAAVCDumpContext@@@Z 5f603da9 f sockcore.obj
+ 0001:00002e01       ??0CSocketWnd@@QAE@XZ      5f603e01 f sockcore.obj
+ 0001:00002e20       ?OnSocketNotify@CSocketWnd@@IAEJIJ@Z 5f603e20 f sockcore.obj
+ 0001:00002e46       ?OnSocketDead@CSocketWnd@@IAEJIJ@Z 5f603e46 f sockcore.obj
+ 0001:00002e6c       ?_GetBaseMessageMap@CSocketWnd@@KGPBUAFX_MSGMAP@@XZ 5f603e6c f sockcore.obj
+ 0001:00002e76       ?GetMessageMap@CSocketWnd@@MBEPBUAFX_MSGMAP@@XZ 5f603e76 f sockcore.obj
+ 0001:00002e86       ??BCAsyncSocket@@QBEIXZ    5f603e86 f sockcore.obj
+ 0001:00002e97       ?GetPeerName@CAsyncSocket@@QAEHPAUsockaddr@@PAH@Z 5f603e97 f sockcore.obj
+ 0001:00002ec3       ?GetSockName@CAsyncSocket@@QAEHPAUsockaddr@@PAH@Z 5f603ec3 f sockcore.obj
+ 0001:00002eef       ?SetSockOpt@CAsyncSocket@@QAEHHPBXHH@Z 5f603eef f sockcore.obj
+ 0001:00002f23       ?GetSockOpt@CAsyncSocket@@QAEHHPAXPAHH@Z 5f603f23 f sockcore.obj
+ 0001:00002f57       ?FromHandle@CAsyncSocket@@SGPAV1@I@Z 5f603f57 f sockcore.obj
+ 0001:00002f69       ?GetLastError@CAsyncSocket@@SGHXZ 5f603f69 f sockcore.obj
+ 0001:00002f74       ?Bind@CAsyncSocket@@QAEHPBUsockaddr@@H@Z 5f603f74 f sockcore.obj
+ 0001:00002fa0       ?Connect@CAsyncSocket@@QAEHPBUsockaddr@@H@Z 5f603fa0 f sockcore.obj
+ 0001:00002fc0       ?IOCtl@CAsyncSocket@@QAEHJPAK@Z 5f603fc0 f sockcore.obj
+ 0001:00002fec       ?Listen@CAsyncSocket@@QAEHH@Z 5f603fec f sockcore.obj
+ 0001:00003014       ?ReceiveFrom@CAsyncSocket@@QAEHPAXHPAUsockaddr@@PAHH@Z 5f604014 f sockcore.obj
+ 0001:00003040       ?ShutDown@CAsyncSocket@@QAEHH@Z 5f604040 f sockcore.obj
+ 0001:00003068       ?SendTo@CAsyncSocket@@QAEHPBXHPBUsockaddr@@HH@Z 5f604068 f sockcore.obj
+ 0001:00003094       ?Create@CSocket@@QAEHIHPBD@Z 5f604094 f sockcore.obj
+ 0001:000030b7       ?IsBlocking@CSocket@@QAEHXZ 5f6040b7 f sockcore.obj
+ 0001:000030d0       ?FromHandle@CSocket@@SGPAV1@I@Z 5f6040d0 f sockcore.obj
+ 0001:000030e2       ?Attach@CSocket@@QAEHI@Z   5f6040e2 f sockcore.obj
+ 0001:00003100       ?AfxLoadSock@@YAPAUHINSTANCE__@@PAP6GHXZPBD@Z 5f604100 f sockcore.obj
+ 0001:00003130       ??_GCSocketFile@@UAEPAXI@Z 5f604130 f sockcore.obj
+ 0001:00003130       ??_ECSocketFile@@UAEPAXI@Z 5f604130 f sockcore.obj
+ 0001:00003160       ??_GCSocketWnd@@UAEPAXI@Z  5f604160 f sockcore.obj
+ 0001:00003160       ??_ECSocketWnd@@UAEPAXI@Z  5f604160 f sockcore.obj
+ 0001:00003190       ??1CSocketWnd@@UAE@XZ      5f604190 f sockcore.obj
+ 0001:000032c0       ??_ECAsyncSocket@@UAEPAXI@Z 5f6042c0 f dllnet.obj
+ 0001:00003320       ??_ECSocket@@UAEPAXI@Z     5f604320 f dllnet.obj
+ 0002:00000070       ??_C@_0L@LDKI@MFC42D?4DLL?$AA@ 5f605070   dllnet.obj
+ 0002:00000080       ?messageMap@CSocketWnd@@1UAFX_MSGMAP@@B 5f605080   sockcore.obj
+ 0002:00000088       ?_messageEntries@CSocketWnd@@0PBUAFX_MSGMAP_ENTRY@@B 5f605088   sockcore.obj
+ 0002:000000d0       ?classCAsyncSocket@CAsyncSocket@@2UCRuntimeClass@@B 5f6050d0   sockcore.obj
+ 0002:000000e8       ?classCSocket@CSocket@@2UCRuntimeClass@@B 5f6050e8   sockcore.obj
+ 0002:00000100       ?classCSocketFile@CSocketFile@@2UCRuntimeClass@@B 5f605100   sockcore.obj
+ 0002:00000118       ??_C@_0M@FJKI@CSocketFile?$AA@ 5f605118   sockcore.obj
+ 0002:00000124       ??_C@_07MBCI@CSocket?$AA@  5f605124   sockcore.obj
+ 0002:0000012c       ??_C@_0N@CCKH@CAsyncSocket?$AA@ 5f60512c   sockcore.obj
+ 0002:0000013c       ??_C@_06JGM@accept?$AA@    5f60513c   sockcore.obj
+ 0002:00000144       ??_C@_0M@CGKO@WSOCK32?4DLL?$AA@ 5f605144   sockcore.obj
+ 0002:00000150       ??_C@_05MHGE@htons?$AA@    5f605150   sockcore.obj
+ 0002:00000158       ??_C@_09NHDB@inet_addr?$AA@ 5f605158   sockcore.obj
+ 0002:00000164       ??_C@_0M@BGOH@closesocket?$AA@ 5f605164   sockcore.obj
+ 0002:00000170       ??_C@_0M@NGKD@getsockname?$AA@ 5f605170   sockcore.obj
+ 0002:0000017c       ??_C@_0M@PJMM@getpeername?$AA@ 5f60517c   sockcore.obj
+ 0002:00000188       ??_C@_05HAEE@ntohs?$AA@    5f605188   sockcore.obj
+ 0002:00000190       ??_C@_09POBH@inet_ntoa?$AA@ 5f605190   sockcore.obj
+ 0002:0000019c       ??_C@_0BA@OODD@WSAGetLastError?$AA@ 5f60519c   sockcore.obj
+ 0002:000001ac       ??_C@_0BA@IHDB@WSASetLastError?$AA@ 5f6051ac   sockcore.obj
+ 0002:000001bc       ??_C@_0L@BKPI@WSAStartup?$AA@ 5f6051bc   sockcore.obj
+ 0002:000001c8       ??_C@_0L@KLBB@WSACleanup?$AA@ 5f6051c8   sockcore.obj
+ 0002:000001d4       ??_C@_05GPEJ@htonl?$AA@    5f6051d4   sockcore.obj
+ 0002:000001dc       ??_C@_06KDPK@socket?$AA@   5f6051dc   sockcore.obj
+ 0002:000001e4       ??_C@_0O@BLIP@gethostbyname?$AA@ 5f6051e4   sockcore.obj
+ 0002:000001f4       ??_C@_04NJFL@recv?$AA@     5f6051f4   sockcore.obj
+ 0002:000001fc       ??_C@_04PJAD@send?$AA@     5f6051fc   sockcore.obj
+ 0002:00000204       ??_C@_0P@KNOI@WSAAsyncSelect?$AA@ 5f605204   sockcore.obj
+ 0002:00000214       ??_C@_08DJPD@recvfrom?$AA@ 5f605214   sockcore.obj
+ 0002:00000220       ??_C@_06CILG@sendto?$AA@   5f605220   sockcore.obj
+ 0002:00000228       ??_C@_07DHIJ@connect?$AA@  5f605228   sockcore.obj
+ 0002:00000230       ??_C@_04FBJP@bind?$AA@     5f605230   sockcore.obj
+ 0002:00000238       ??_C@_0L@PCGG@setsockopt?$AA@ 5f605238   sockcore.obj
+ 0002:00000244       ??_C@_0L@DBEL@getsockopt?$AA@ 5f605244   sockcore.obj
+ 0002:00000250       ??_C@_0M@LOFA@ioctlsocket?$AA@ 5f605250   sockcore.obj
+ 0002:0000025c       ??_C@_06IODP@listen?$AA@   5f60525c   sockcore.obj
+ 0002:00000264       ??_C@_08DHEI@shutdown?$AA@ 5f605264   sockcore.obj
+ 0002:00000274       ??_7_AFX_SOCK_STATE@@6B@   5f605274   sockcore.obj
+ 0002:0000027c       ??_7CAsyncSocket@@6B@      5f60527c   sockcore.obj
+ 0002:000002cc       ??_7CNoTrackObject@@6B@    5f6052cc   sockcore.obj
+ 0002:000002d0       ??_C@_02DILL@?$CFs?$AA@    5f6052d0   sockcore.obj
+ 0002:000002d4       ??_C@_0DB@FJKP@Warning?3?5unable?5to?5create?5socket@ 5f6052d4   sockcore.obj
+ 0002:00000308       ??_C@_0BJ@HDPG@Socket?5Notification?5Sink?$AA@ 5f605308   sockcore.obj
+ 0002:00000324       ??_C@_01BJG@?6?$AA@        5f605324   sockcore.obj
+ 0002:00000328       ??_C@_0BA@MMD@INVALID_SOCKET?6?$AA@ 5f605328   sockcore.obj
+ 0002:00000338       ??_C@_0N@HJN@m_hSocket?5?$DN?5?$AA@ 5f605338   sockcore.obj
+ 0002:0000034c       ??_7CSocket@@6B@           5f60534c   sockcore.obj
+ 0002:0000039c       ??_C@_0DG@NLAD@Error?3?5caught?5exception?5in?5PumpM@ 5f60539c   sockcore.obj
+ 0002:000003d4       ??_C@_0BD@MNOG@m_nConnectError?5?$DN?5?$AA@ 5f6053d4   sockcore.obj
+ 0002:000003e8       ??_C@_0BA@EKGE@m_pbBlocking?5?$DN?5?$AA@ 5f6053e8   sockcore.obj
+ 0002:000003fc       ??_7CSocketFile@@6B@       5f6053fc   sockcore.obj
+ 0002:00000458       ??_C@_0DB@HFNB@Warning?5?9?5Attempt?5made?5to?5seek?5o@ 5f605458   sockcore.obj
+ 0002:0000048c       ??_C@_0O@FJPJ@with?5socket?3?5?$AA@ 5f60548c   sockcore.obj
+ 0002:0000049c       ??_C@_0BA@JPDC@with?5no?5socket?6?$AA@ 5f60549c   sockcore.obj
+ 0002:000004b4       ??_7CSocketWnd@@6B@        5f6054b4   sockcore.obj
+ 0002:00000574       ??_C@_0BP@INDE@E?3?2msdev?2mfc?2include?2afxtls_?4h?$AA@ 5f605574   sockcore.obj
+ 0002:000005cc       ??_7type_info@@6B@         5f6055cc   msvcrtd:ti_inst.obj
+ 0002:000005d0       ??_C@_08JKC@crtdll?4c?$AA@ 5f6055d0   msvcrtd:crtdll.obj
+ 0002:000005e0       ??_R1A@?0A@A@CNoTrackObject@@8 5f6055e0   sockcore.obj
+ 0002:000005f8       ??_R1A@?0A@A@_AFX_SOCK_STATE@@8 5f6055f8   sockcore.obj
+ 0002:00000610       ??_R2_AFX_SOCK_STATE@@8    5f605610   sockcore.obj
+ 0002:00000620       ??_R3_AFX_SOCK_STATE@@8    5f605620   sockcore.obj
+ 0002:00000630       ??_R4_AFX_SOCK_STATE@@6B@  5f605630   sockcore.obj
+ 0002:00000648       ??_R1A@?0A@A@CObject@@8    5f605648   sockcore.obj
+ 0002:00000660       ??_R1A@?0A@A@CAsyncSocket@@8 5f605660   sockcore.obj
+ 0002:00000678       ??_R2CAsyncSocket@@8       5f605678   sockcore.obj
+ 0002:00000688       ??_R3CAsyncSocket@@8       5f605688   sockcore.obj
+ 0002:00000698       ??_R4CAsyncSocket@@6B@     5f605698   sockcore.obj
+ 0002:000006ac       ??_R2CNoTrackObject@@8     5f6056ac   sockcore.obj
+ 0002:000006b8       ??_R3CNoTrackObject@@8     5f6056b8   sockcore.obj
+ 0002:000006c8       ??_R4CNoTrackObject@@6B@   5f6056c8   sockcore.obj
+ 0002:000006e0       ??_R1A@?0A@A@CSocket@@8    5f6056e0   sockcore.obj
+ 0002:000006f8       ??_R2CSocket@@8            5f6056f8   sockcore.obj
+ 0002:00000708       ??_R3CSocket@@8            5f605708   sockcore.obj
+ 0002:00000718       ??_R4CSocket@@6B@          5f605718   sockcore.obj
+ 0002:00000730       ??_R1A@?0A@A@CFile@@8      5f605730   sockcore.obj
+ 0002:00000748       ??_R1A@?0A@A@CSocketFile@@8 5f605748   sockcore.obj
+ 0002:00000760       ??_R2CSocketFile@@8        5f605760   sockcore.obj
+ 0002:00000770       ??_R3CSocketFile@@8        5f605770   sockcore.obj
+ 0002:00000780       ??_R4CSocketFile@@6B@      5f605780   sockcore.obj
+ 0002:00000798       ??_R1A@?0A@A@CCmdTarget@@8 5f605798   sockcore.obj
+ 0002:000007b0       ??_R1A@?0A@A@CWnd@@8       5f6057b0   sockcore.obj
+ 0002:000007c8       ??_R1A@?0A@A@CSocketWnd@@8 5f6057c8   sockcore.obj
+ 0002:000007e0       ??_R2CSocketWnd@@8         5f6057e0   sockcore.obj
+ 0002:000007f8       ??_R3CSocketWnd@@8         5f6057f8   sockcore.obj
+ 0002:00000808       ??_R4CSocketWnd@@6B@       5f605808   sockcore.obj
+ 0002:00000820       ??_R1A@?0A@A@type_info@@8  5f605820   msvcrtd:ti_inst.obj
+ 0002:00000838       ??_R2type_info@@8          5f605838   msvcrtd:ti_inst.obj
+ 0002:00000840       ??_R3type_info@@8          5f605840   msvcrtd:ti_inst.obj
+ 0002:00000850       ??_R4type_info@@6B@        5f605850   msvcrtd:ti_inst.obj
+ 0003:00000000       ___xc_a                    5f606000   msvcrtd:cinitexe.obj
+ 0003:00000008       ___xc_z                    5f606008   msvcrtd:cinitexe.obj
+ 0003:0000000c       ___xi_a                    5f60600c   msvcrtd:cinitexe.obj
+ 0003:00000010       ___xi_z                    5f606010   msvcrtd:cinitexe.obj
+ 0003:0000002c       __pRawDllMain              5f60602c   dllnet.obj
+ 0003:00000030       ?_afxForceVectorDelete_mfcn@@3P6AXXZA 5f606030   dllnet.obj
+ 0003:00000048       ?_afxSOCK@@3UAFX_SOCK_CALL@@A 5f606048   sockcore.obj
+ 0003:000000c8       ??_R0?AVCNoTrackObject@@@8 5f6060c8   sockcore.obj
+ 0003:000000e8       ??_R0?AV_AFX_SOCK_STATE@@@8 5f6060e8   sockcore.obj
+ 0003:00000108       ??_R0?AVCObject@@@8        5f606108   sockcore.obj
+ 0003:00000120       ??_R0?AVCAsyncSocket@@@8   5f606120   sockcore.obj
+ 0003:00000140       ??_R0?AVCSocket@@@8        5f606140   sockcore.obj
+ 0003:00000158       ??_R0PAVCException@@@8     5f606158   sockcore.obj
+ 0003:00000178       ??_R0?AVCFile@@@8          5f606178   sockcore.obj
+ 0003:00000190       ??_R0?AVCSocketFile@@@8    5f606190   sockcore.obj
+ 0003:000001b0       ??_R0?AVCCmdTarget@@@8     5f6061b0   sockcore.obj
+ 0003:000001d0       ??_R0?AVCWnd@@@8           5f6061d0   sockcore.obj
+ 0003:000001e8       ??_R0?AVCSocketWnd@@@8     5f6061e8   sockcore.obj
+ 0003:00000210       ??_R0?AVtype_info@@@8      5f606210   msvcrtd:ti_inst.obj
+ 0003:0000023c       ?_afxSockState@@3V?$CProcessLocal@V_AFX_SOCK_STATE@@@@A 5f60623c   sockcore.obj
+ 0003:00000244       __adjust_fdiv              5f606244   <common>
+ 0003:00000248       ___onexitend               5f606248   <common>
+ 0003:0000024c       ___onexitbegin             5f60624c   <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_MFC42D 5f607000   MFC42D:MFC42D.DLL
+ 0004:00000014       __IMPORT_DESCRIPTOR_MSVCRTD 5f607014   msvcrtd:MSVCRTD.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_KERNEL32 5f607028   kernel32:KERNEL32.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_USER32 5f60703c   user32:USER32.dll
+ 0004:00000050       __NULL_IMPORT_DESCRIPTOR   5f607050   MFC42D:MFC42D.DLL
+ 0004:00000290       __imp__FreeLibrary@4       5f607290   kernel32:KERNEL32.dll
+ 0004:00000294       __imp__GetModuleHandleA@4  5f607294   kernel32:KERNEL32.dll
+ 0004:00000298       __imp__LocalFree@4         5f607298   kernel32:KERNEL32.dll
+ 0004:0000029c       __imp__LocalAlloc@8        5f60729c   kernel32:KERNEL32.dll
+ 0004:000002a0       __imp__LoadLibraryA@4      5f6072a0   kernel32:KERNEL32.dll
+ 0004:000002a4       __imp__SetLastError@4      5f6072a4   kernel32:KERNEL32.dll
+ 0004:000002a8       \177KERNEL32_NULL_THUNK_DATA 5f6072a8   kernel32:KERNEL32.dll
+ 0004:000002ac       __imp_?AfxGetAppModuleState@@YGPAVAFX_MODULE_STATE@@XZ 5f6072ac   MFC42D:MFC42D.DLL
+ 0004:000002b0       __imp_??3@YAXPAX@Z         5f6072b0   MFC42D:MFC42D.DLL
+ 0004:000002b4       __imp_??2@YAPAXI@Z         5f6072b4   MFC42D:MFC42D.DLL
+ 0004:000002b8       __imp_?AfxLoadDll@@YGPAUHINSTANCE__@@RAPAU1@PBDPAP6GHXZ1@Z 5f6072b8   MFC42D:MFC42D.DLL
+ 0004:000002bc       __imp_?AfxInitExtensionModule@@YGHAAUAFX_EXTENSION_MODULE@@PAUHINSTANCE__@@@Z 5f6072bc   MFC42D:MFC42D.DLL
+ 0004:000002c0       __imp_?Serialize@CObject@@UAEXAAVCArchive@@@Z 5f6072c0   MFC42D:MFC42D.DLL
+ 0004:000002c4       __imp_??0CObject@@IAE@XZ   5f6072c4   MFC42D:MFC42D.DLL
+ 0004:000002c8       __imp_??4CString@@QAEABV0@PBD@Z 5f6072c8   MFC42D:MFC42D.DLL
+ 0004:000002cc       __imp_??3CNoTrackObject@@SGXPAX@Z 5f6072cc   MFC42D:MFC42D.DLL
+ 0004:000002d0       __imp_?AfxGetModuleThreadState@@YGPAVAFX_MODULE_THREAD_STATE@@XZ 5f6072d0   MFC42D:MFC42D.DLL
+ 0004:000002d4       __imp_??1CObject@@UAE@XZ   5f6072d4   MFC42D:MFC42D.DLL
+ 0004:000002d8       __imp_?GetValueAt@CMapPtrToPtr@@QBEPAXPAX@Z 5f6072d8   MFC42D:MFC42D.DLL
+ 0004:000002dc       __imp_?Lookup@CMapPtrToPtr@@QBEHPAXAAPAX@Z 5f6072dc   MFC42D:MFC42D.DLL
+ 0004:000002e0       __imp_?SetAt@CMapPtrToPtr@@QAEXPAX0@Z 5f6072e0   MFC42D:MFC42D.DLL
+ 0004:000002e4       __imp_?FromHandlePermanent@CWnd@@SGPAV1@PAUHWND__@@@Z 5f6072e4   MFC42D:MFC42D.DLL
+ 0004:000002e8       __imp_?AfxThrowResourceException@@YGXXZ 5f6072e8   MFC42D:MFC42D.DLL
+ 0004:000002ec       __imp_?AfxTrace@@YAXPBDZZ  5f6072ec   MFC42D:MFC42D.DLL
+ 0004:000002f0       __imp_?CreateEx@CWnd@@QAEHKPBD0KHHHHPAUHWND__@@PAUHMENU__@@PAX@Z 5f6072f0   MFC42D:MFC42D.DLL
+ 0004:000002f4       __imp_?AfxRegisterWndClass@@YGPBDIPAUHICON__@@PAUHBRUSH__@@0@Z 5f6072f4   MFC42D:MFC42D.DLL
+ 0004:000002f8       __imp_??2CObject@@SGPAXIPBDH@Z 5f6072f8   MFC42D:MFC42D.DLL
+ 0004:000002fc       __imp_?IsEmpty@CMapPtrToPtr@@QBEHXZ 5f6072fc   MFC42D:MFC42D.DLL
+ 0004:00000300       __imp_?AfxEnableMemoryTracking@@YGHH@Z 5f607300   MFC42D:MFC42D.DLL
+ 0004:00000304       __imp_?RemoveHead@CPtrList@@QAEPAXXZ 5f607304   MFC42D:MFC42D.DLL
+ 0004:00000308       __imp_?IsEmpty@CPtrList@@QBEHXZ 5f607308   MFC42D:MFC42D.DLL
+ 0004:0000030c       __imp_?RemoveAll@CMapPtrToPtr@@QAEXXZ 5f60730c   MFC42D:MFC42D.DLL
+ 0004:00000310       __imp_?AfxAssertValidObject@@YGXPBVCObject@@PBDH@Z 5f607310   MFC42D:MFC42D.DLL
+ 0004:00000314       __imp_?RemoveKey@CMapPtrToPtr@@QAEHPAX@Z 5f607314   MFC42D:MFC42D.DLL
+ 0004:00000318       __imp_?AssertValid@CObject@@UBEXXZ 5f607318   MFC42D:MFC42D.DLL
+ 0004:0000031c       __imp_??6CDumpContext@@QAEAAV0@I@Z 5f60731c   MFC42D:MFC42D.DLL
+ 0004:00000320       __imp_??6CDumpContext@@QAEAAV0@PBD@Z 5f607320   MFC42D:MFC42D.DLL
+ 0004:00000324       __imp_?Dump@CObject@@UBEXAAVCDumpContext@@@Z 5f607324   MFC42D:MFC42D.DLL
+ 0004:00000328       __imp_?AddTail@CPtrList@@QAEPAU__POSITION@@PAX@Z 5f607328   MFC42D:MFC42D.DLL
+ 0004:0000032c       __imp_??2@YAPAXIPBDH@Z     5f60732c   MFC42D:MFC42D.DLL
+ 0004:00000330       __imp_?Delete@CException@@QAEXXZ 5f607330   MFC42D:MFC42D.DLL
+ 0004:00000334       __imp_?IsKindOf@CObject@@QBEHPBUCRuntimeClass@@@Z 5f607334   MFC42D:MFC42D.DLL
+ 0004:00000338       __imp_?classCException@CException@@2UCRuntimeClass@@B 5f607338   MFC42D:MFC42D.DLL
+ 0004:0000033c       __imp_?AfxGetThread@@YGPAVCWinThread@@XZ 5f60733c   MFC42D:MFC42D.DLL
+ 0004:00000340       __imp_??6CDumpContext@@QAEAAV0@H@Z 5f607340   MFC42D:MFC42D.DLL
+ 0004:00000344       __imp_??6CDumpContext@@QAEAAV0@PBX@Z 5f607344   MFC42D:MFC42D.DLL
+ 0004:00000348       __imp_?GetBufferPtr@CFile@@UAEIIIPAPAX0@Z 5f607348   MFC42D:MFC42D.DLL
+ 0004:0000034c       __imp_?SetFilePath@CFile@@UAEXPBD@Z 5f60734c   MFC42D:MFC42D.DLL
+ 0004:00000350       __imp_?GetFilePath@CFile@@UBE?AVCString@@XZ 5f607350   MFC42D:MFC42D.DLL
+ 0004:00000354       __imp_?GetFileTitle@CFile@@UBE?AVCString@@XZ 5f607354   MFC42D:MFC42D.DLL
+ 0004:00000358       __imp_?GetFileName@CFile@@UBE?AVCString@@XZ 5f607358   MFC42D:MFC42D.DLL
+ 0004:0000035c       __imp_??1CFile@@UAE@XZ     5f60735c   MFC42D:MFC42D.DLL
+ 0004:00000360       __imp_??0CFile@@QAE@XZ     5f607360   MFC42D:MFC42D.DLL
+ 0004:00000364       __imp_?AfxThrowFileException@@YGXHJPBD@Z 5f607364   MFC42D:MFC42D.DLL
+ 0004:00000368       __imp_?AfxThrowNotSupportedException@@YGXXZ 5f607368   MFC42D:MFC42D.DLL
+ 0004:0000036c       __imp_?AssertValid@CFile@@UBEXXZ 5f60736c   MFC42D:MFC42D.DLL
+ 0004:00000370       __imp_??6CDumpContext@@QAEAAV0@PBVCObject@@@Z 5f607370   MFC42D:MFC42D.DLL
+ 0004:00000374       __imp_?GetDepth@CDumpContext@@QBEHXZ 5f607374   MFC42D:MFC42D.DLL
+ 0004:00000378       __imp_?Dump@CFile@@UBEXAAVCDumpContext@@@Z 5f607378   MFC42D:MFC42D.DLL
+ 0004:0000037c       __imp_??2CObject@@SGPAXI@Z 5f60737c   MFC42D:MFC42D.DLL
+ 0004:00000380       __imp_?AfxAssertFailedLine@@YGHPBDH@Z 5f607380   MFC42D:MFC42D.DLL
+ 0004:00000384       __imp_?CheckAutoCenter@CWnd@@UAEHXZ 5f607384   MFC42D:MFC42D.DLL
+ 0004:00000388       __imp_?OnChildNotify@CWnd@@MAEHIIJPAJ@Z 5f607388   MFC42D:MFC42D.DLL
+ 0004:0000038c       __imp_?PostNcDestroy@CWnd@@MAEXXZ 5f60738c   MFC42D:MFC42D.DLL
+ 0004:00000390       __imp_?DefWindowProcA@CWnd@@MAEJIIJ@Z 5f607390   MFC42D:MFC42D.DLL
+ 0004:00000394       __imp_?OnWndMsg@CWnd@@MAEHIIJPAJ@Z 5f607394   MFC42D:MFC42D.DLL
+ 0004:00000398       __imp_?WindowProc@CWnd@@MAEJIIJ@Z 5f607398   MFC42D:MFC42D.DLL
+ 0004:0000039c       __imp_?OnAmbientProperty@CWnd@@UAEHPAVCOleControlSite@@JPAUtagVARIANT@@@Z 5f60739c   MFC42D:MFC42D.DLL
+ 0004:000003a0       __imp_?PreTranslateMessage@CWnd@@UAEHPAUtagMSG@@@Z 5f6073a0   MFC42D:MFC42D.DLL
+ 0004:000003a4       __imp_?AfxGetModuleState@@YGPAVAFX_MODULE_STATE@@XZ 5f6073a4   MFC42D:MFC42D.DLL
+ 0004:000003a8       __imp_?BeginModalState@CWnd@@UAEXXZ 5f6073a8   MFC42D:MFC42D.DLL
+ 0004:000003ac       __imp_?DoDataExchange@CWnd@@MAEXPAVCDataExchange@@@Z 5f6073ac   MFC42D:MFC42D.DLL
+ 0004:000003b0       __imp_?GetSuperWndProcAddr@CWnd@@MAEPAP6GJPAUHWND__@@IIJ@ZXZ 5f6073b0   MFC42D:MFC42D.DLL
+ 0004:000003b4       __imp_?OnNotify@CWnd@@MAEHIJPAJ@Z 5f6073b4   MFC42D:MFC42D.DLL
+ 0004:000003b8       __imp_?OnCommand@CWnd@@MAEHIJ@Z 5f6073b8   MFC42D:MFC42D.DLL
+ 0004:000003bc       __imp_?EndModalLoop@CWnd@@UAEXH@Z 5f6073bc   MFC42D:MFC42D.DLL
+ 0004:000003c0       __imp_?ContinueModal@CWnd@@UAEHXZ 5f6073c0   MFC42D:MFC42D.DLL
+ 0004:000003c4       __imp_?WinHelpA@CWnd@@UAEXKI@Z 5f6073c4   MFC42D:MFC42D.DLL
+ 0004:000003c8       __imp_?GetScrollBarCtrl@CWnd@@UBEPAVCScrollBar@@H@Z 5f6073c8   MFC42D:MFC42D.DLL
+ 0004:000003cc       __imp_?OnToolHitTest@CWnd@@UBEHVCPoint@@PAUtagTOOLINFOA@@@Z 5f6073cc   MFC42D:MFC42D.DLL
+ 0004:000003d0       __imp_?CalcWindowRect@CWnd@@UAEXPAUtagRECT@@I@Z 5f6073d0   MFC42D:MFC42D.DLL
+ 0004:000003d4       __imp_?PreCreateWindow@CWnd@@UAEHAAUtagCREATESTRUCTA@@@Z 5f6073d4   MFC42D:MFC42D.DLL
+ 0004:000003d8       __imp_?DestroyWindow@CWnd@@UAEHXZ 5f6073d8   MFC42D:MFC42D.DLL
+ 0004:000003dc       __imp_?Create@CWnd@@UAEHPBD0KABUtagRECT@@PAV1@IPAUCCreateContext@@@Z 5f6073dc   MFC42D:MFC42D.DLL
+ 0004:000003e0       __imp_?PreSubclassWindow@CWnd@@UAEXXZ 5f6073e0   MFC42D:MFC42D.DLL
+ 0004:000003e4       __imp_?GetConnectionHook@CCmdTarget@@MAEPAUIConnectionPoint@@ABU_GUID@@@Z 5f6073e4   MFC42D:MFC42D.DLL
+ 0004:000003e8       __imp_?GetExtraConnectionPoints@CCmdTarget@@MAEHPAVCPtrArray@@@Z 5f6073e8   MFC42D:MFC42D.DLL
+ 0004:000003ec       __imp_?GetInterfaceHook@CCmdTarget@@UAEPAUIUnknown@@PBX@Z 5f6073ec   MFC42D:MFC42D.DLL
+ 0004:000003f0       __imp_?OnCreateAggregates@CCmdTarget@@UAEHXZ 5f6073f0   MFC42D:MFC42D.DLL
+ 0004:000003f4       __imp_?GetEventSinkMap@CCmdTarget@@MBEPBUAFX_EVENTSINKMAP@@XZ 5f6073f4   MFC42D:MFC42D.DLL
+ 0004:000003f8       __imp_?GetInterfaceMap@CCmdTarget@@MBEPBUAFX_INTERFACEMAP@@XZ 5f6073f8   MFC42D:MFC42D.DLL
+ 0004:000003fc       __imp_?GetConnectionMap@CCmdTarget@@MBEPBUAFX_CONNECTIONMAP@@XZ 5f6073fc   MFC42D:MFC42D.DLL
+ 0004:00000400       __imp_?GetDispatchMap@CCmdTarget@@MBEPBUAFX_DISPMAP@@XZ 5f607400   MFC42D:MFC42D.DLL
+ 0004:00000404       __imp_?GetCommandMap@CCmdTarget@@MBEPBUAFX_OLECMDMAP@@XZ 5f607404   MFC42D:MFC42D.DLL
+ 0004:00000408       __imp_?GetTypeLib@CCmdTarget@@UAEJKPAPAUITypeLib@@@Z 5f607408   MFC42D:MFC42D.DLL
+ 0004:0000040c       __imp_?GetTypeLibCache@CCmdTarget@@UAEPAVCTypeLibCache@@XZ 5f60740c   MFC42D:MFC42D.DLL
+ 0004:00000410       __imp_?GetTypeInfoCount@CCmdTarget@@UAEIXZ 5f607410   MFC42D:MFC42D.DLL
+ 0004:00000414       __imp_?GetDispatchIID@CCmdTarget@@UAEHPAU_GUID@@@Z 5f607414   MFC42D:MFC42D.DLL
+ 0004:00000418       __imp_?IsInvokeAllowed@CCmdTarget@@UAEHJ@Z 5f607418   MFC42D:MFC42D.DLL
+ 0004:0000041c       __imp_?OnFinalRelease@CWnd@@UAEXXZ 5f60741c   MFC42D:MFC42D.DLL
+ 0004:00000420       __imp_?OnCmdMsg@CCmdTarget@@UAEHIHPAXPAUAFX_CMDHANDLERINFO@@@Z 5f607420   MFC42D:MFC42D.DLL
+ 0004:00000424       __imp_?Dump@CWnd@@UBEXAAVCDumpContext@@@Z 5f607424   MFC42D:MFC42D.DLL
+ 0004:00000428       __imp_?AssertValid@CWnd@@UBEXXZ 5f607428   MFC42D:MFC42D.DLL
+ 0004:0000042c       __imp_?GetRuntimeClass@CWnd@@UBEPAUCRuntimeClass@@XZ 5f60742c   MFC42D:MFC42D.DLL
+ 0004:00000430       __imp_??0CWnd@@QAE@XZ      5f607430   MFC42D:MFC42D.DLL
+ 0004:00000434       __imp_??1CWnd@@UAE@XZ      5f607434   MFC42D:MFC42D.DLL
+ 0004:00000438       __imp_?messageMap@CWnd@@1UAFX_MSGMAP@@B 5f607438   MFC42D:MFC42D.DLL
+ 0004:0000043c       __imp_?classCObject@CObject@@2UCRuntimeClass@@B 5f60743c   MFC42D:MFC42D.DLL
+ 0004:00000440       __imp_?classCFile@CFile@@2UCRuntimeClass@@B 5f607440   MFC42D:MFC42D.DLL
+ 0004:00000444       __imp_??1CProcessLocalObject@@QAE@XZ 5f607444   MFC42D:MFC42D.DLL
+ 0004:00000448       __imp_?GetData@CProcessLocalObject@@QAEPAVCNoTrackObject@@P6GPAV2@XZ@Z 5f607448   MFC42D:MFC42D.DLL
+ 0004:0000044c       __imp_??2CNoTrackObject@@SGPAXI@Z 5f60744c   MFC42D:MFC42D.DLL
+ 0004:00000450       __imp_??0CDynLinkLibrary@@QAE@AAUAFX_EXTENSION_MODULE@@H@Z 5f607450   MFC42D:MFC42D.DLL
+ 0004:00000454       __imp_?AfxTermExtensionModule@@YGXAAUAFX_EXTENSION_MODULE@@H@Z 5f607454   MFC42D:MFC42D.DLL
+ 0004:00000458       __imp_?AfxTermThread@@YGXPAUHINSTANCE__@@@Z 5f607458   MFC42D:MFC42D.DLL
+ 0004:0000045c       __imp_??3CObject@@SGXPAX@Z 5f60745c   MFC42D:MFC42D.DLL
+ 0004:00000460       __imp_?IsFrameWnd@CWnd@@UBEHXZ 5f607460   MFC42D:MFC42D.DLL
+ 0004:00000464       __imp_?SetOccDialogInfo@CWnd@@MAEHPAU_AFX_OCC_DIALOG_INFO@@@Z 5f607464   MFC42D:MFC42D.DLL
+ 0004:00000468       __imp_?EndModalState@CWnd@@UAEXXZ 5f607468   MFC42D:MFC42D.DLL
+ 0004:0000046c       \177MFC42D_NULL_THUNK_DATA 5f60746c   MFC42D:MFC42D.DLL
+ 0004:00000470       __imp___except_handler3    5f607470   msvcrtd:MSVCRTD.dll
+ 0004:00000474       __imp___initterm           5f607474   msvcrtd:MSVCRTD.dll
+ 0004:00000478       __imp___malloc_dbg         5f607478   msvcrtd:MSVCRTD.dll
+ 0004:0000047c       __imp___adjust_fdiv        5f60747c   msvcrtd:MSVCRTD.dll
+ 0004:00000480       __imp___onexit             5f607480   msvcrtd:MSVCRTD.dll
+ 0004:00000484       __imp____dllonexit         5f607484   msvcrtd:MSVCRTD.dll
+ 0004:00000488       __imp_??1type_info@@UAE@XZ 5f607488   msvcrtd:MSVCRTD.dll
+ 0004:0000048c       __imp_?terminate@@YAXXZ    5f60748c   msvcrtd:MSVCRTD.dll
+ 0004:00000490       __imp___free_dbg           5f607490   msvcrtd:MSVCRTD.dll
+ 0004:00000494       __imp__memset              5f607494   msvcrtd:MSVCRTD.dll
+ 0004:00000498       __imp____CxxFrameHandler   5f607498   msvcrtd:MSVCRTD.dll
+ 0004:0000049c       \177MSVCRTD_NULL_THUNK_DATA 5f60749c   msvcrtd:MSVCRTD.dll
+ 0004:000004a0       __imp__DispatchMessageA@4  5f6074a0   user32:USER32.dll
+ 0004:000004a4       __imp__PeekMessageA@20     5f6074a4   user32:USER32.dll
+ 0004:000004a8       __imp__KillTimer@8         5f6074a8   user32:USER32.dll
+ 0004:000004ac       __imp__WaitMessage@0       5f6074ac   user32:USER32.dll
+ 0004:000004b0       __imp__SetTimer@16         5f6074b0   user32:USER32.dll
+ 0004:000004b4       __imp__PostMessageA@16     5f6074b4   user32:USER32.dll
+ 0004:000004b8       \177USER32_NULL_THUNK_DATA 5f6074b8   user32:USER32.dll
+
+ entry point at        0001:00000820
+
+ Static symbols
+
+ 0001:00000bde       _$E354                     5f601bde f sockcore.obj
+ 0001:00000bed       _$E351                     5f601bed f sockcore.obj
+ 0001:00000bf2       _$E353                     5f601bf2 f sockcore.obj
+ 0001:00000c04       _$E352                     5f601c04 f sockcore.obj
+ 0001:000031b0       ?_AfxForceVectorDelete@@YAXXZ 5f6041b0 f dllnet.obj
+ 0001:00000640       ?ArrayUnwindFilter@@YAHPAU_EXCEPTION_POINTERS@@@Z 5f601640 f msvcrtd:ehvecdtr.obj
+
+FIXUPS: 424d 36 61 c d 13 34 c d 13 ffffccab 783 e0 1e 1e 1d fffffe07 1a
+FIXUPS: 167b 13 ffffff0e 7f 47 fffffe96 fffffc3e 32ff b ffffcd3b 40 13
+FIXUPS: 197c e 11 75 10 12 1f 31 1f 11 3b 7 10 12 1f 31 281f b 9 b 9 b
+FIXUPS: 43c4 fffffe1b 12 36 fffffc39 101 14c 2d 19 23 9 2b5 b 8 b 8 b a
+FIXUPS: 4417 b ffffcc39 13 30cd 13 1d 13 1d ffffda47 5 14 12 1e fffff47a
+FIXUPS: 10bd 2e 33 297e 40 28 57 10 18 63 10 18 3b 34 10 2a 14 12 28 17
+FIXUPS: 3d2e 12 12 1d 13 1f 17 8 1a 16 7 15 29 5 21 fffff73e 2a 10 13 19
+FIXUPS: 360e 1d 14 30 43 10 1b 20 29 bf 96 13 1a b 8c 17 19 7 7 19 7 7
+FIXUPS: 39d3 3a 26 36 13 fffff514 15 13 25 d 16 16 7 9d c8 f 41 9 4a a
+FIXUPS: 3242 13 46 e 76 4b e 68 9 8c e 6c e 3d e 1d 1c fffff5cf 9 1f 13
+FIXUPS: 2b9b 1c b 20 17 16 4b b f c 1a 22 15 1b 13 10 e 30 2e 19 12 18
+FIXUPS: 2ddb 12 56 e4 3e c fffff75a 31 4c c 8c 2a 10 1b c6 f 19 18 1f 24
+FIXUPS: 2988 1a 13 16 13 13 23 1c 11 3e b 13 8 18 17 14 2a 15 fffff706
+FIXUPS: 223d 3f 23 c 25 11 2c 1a 31 1f 1a 31 2d 12 13 18 23 11 1d 16 f
+FIXUPS: 24d1 c 64 3a 1b 39 18 c 6d 45 fffff5a9 2b 24 23 23 2b 2b 24 23
+FIXUPS: 1d9d 23 28 1d 23 2b 23 2f 2f 2f 37 37 2b 2b 33 33 2b 27 5f 1c 49
+FIXUPS: 21e2 37
+
+ 19 bytes saved through ICF
+
