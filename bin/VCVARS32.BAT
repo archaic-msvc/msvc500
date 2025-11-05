@@ -8,8 +8,8 @@ set MSVCDir=%~dp0\..
 rem
 echo Setting environment for using Microsoft Visual C++ tools.
 
-:main
-if "%OS%" == "Windows_NT" set PATH=%MSVCDir%\BIN;%MSVCDir%\BIN\%PATH%
+:main:
+if "%OS%" == "Windows_NT" set PATH=%MSVCDir%\BIN;%MSVCDir%\REDIST;%MSVCDir%\DEBUG;%PATH%
 if "%OS%" == "" set PATH="%MSVCDir%\BIN";%PATH%
 set INCLUDE=%MSVCDir%\INCLUDE;%MSVCDir%\MFC\INCLUDE;%MSVCDir%\ATL\INCLUDE;%INCLUDE%
 set LIB=%MSVCDir%\LIB;%MSVCDir%\MFC\LIB;%LIB%

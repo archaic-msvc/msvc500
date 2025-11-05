@@ -14,7 +14,7 @@ for %%i in ("%__MSVC_ROOT%") do SET "__MSVC_ROOT=%%~fi"
 
 @echo [vcvarsall.bat] Environment initialized for: 'x86'
 
-set PATH=%__MSVC_ROOT%\bin;%__MSVC_ROOT%\debug;%PATH%
+set PATH=%__MSVC_ROOT%\bin;%__MSVC_ROOT%\redist;%__MSVC_ROOT%\debug;%PATH%
 set INCLUDE=%__MSVC_ROOT%\include;%__MSVC_ROOT%\atl\include;%__MSVC_ROOT%\mfc\include;%INCLUDE%
 set LIB=%__MSVC_ROOT%\lib;%__MSVC_ROOT%\mfc\lib;%LIB%
 set VisualStudioVersion=5.00
